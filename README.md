@@ -32,13 +32,6 @@ Please note that this application is most definitely not optimized to it's poten
 
 ## Options
 
-  -d=".": Directory to scan for files
-  -h="localhost": ElasticSearch host
-  -i="blaze-hdd-test-data": Directory to scan for files
-  -p=9200: ElasticSearch port
-  -v=0: Start in fmt.Println mode (debug)
-  -w=-1: Number of workers
-
 - `-d [ZIP_DATA_FILES_PATH]` : Location that contains the ZIP data files.  If already present in specified location, they will not be downloaded (default = "_data/")
 - `-h [ELASTICSEARCH_HOST]` : The hostname/IP of the Elasticsearch server (default = localhost)
 - `-i [INDEX_PREFIX]` : The prefix to use for the indices that will be created ("[INDEX_PREFIX]-[YEAR][MONTH]") (default = blaze-hd-reliability-data)
