@@ -39,4 +39,10 @@ Please note that this application is most definitely not optimized to it's poten
 - `-v [0|1]` : Set verbose debug mode (default = 0)
 - `-w [NUM_WORKERS]` : Sets the number of works to spawn.  A worker imports a single file.  Leave to -1 in order to set number of works to number of cores on your machine. (default = -1)
 
+## Author
 
+Alain Lefebvre
+
+## Liscense
+
+Covered under the MIT license.
